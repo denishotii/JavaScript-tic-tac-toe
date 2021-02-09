@@ -19,7 +19,7 @@ body {
   align-content: center;
   justify-items: center;
   align-items: center;
-  grid-template-columns: repeat(3, auto)
+  grid-template-columns: repeat(3, auto);
 }
 
 .cell {
@@ -143,4 +143,119 @@ body {
 
 .winning-message.show {
   display: flex;
+}
+.header1{
+  border: 1px solid black;
+  width: 20%;
+  height: 100px;
+  margin-bottom: 20px;
+  position: absolute;
+  top: 10px;
+  left: 1%;
+}
+.header2{
+  border: 1px solid black;
+  width: 20%;
+  height: 100px;
+  margin-bottom: 20px;
+  position: absolute;
+  top: 10px;
+  right: 1%;
+}
+@media (max-width:1100px){
+  .header1{
+    width: 40%;
+    position: absolute;
+    top: 20px;
+    left: 9%;
+    margin-right: 2%;
+  }
+  .header2{
+    width: 40%;
+    position: absolute;
+    top: 20px;
+    right: 9%;
+  }
+}
+.pl-sc{
+  width: 100%;
+  height: 50px;
+  border-bottom: 1px solid black;
+}
+.pl{
+  width: 50%;
+  height: 50px;
+  border: 1px solid black;
+  float: left;
+  font-weight: bold;
+  text-align: center;
+}
+.sc{
+  width: 50%;
+  height: 50px;
+  border: 1px solid black;
+  float: left;
+  font-weight: bold;
+  text-align: center;
+}
+.games{
+  width: 100%;
+  height: 100px;
+  border: 1px solid black;
+}
+.pl-1{
+  width: 100%;
+  height: 50px;
+  border: 1px solid black;
+}
+.pl-2{
+  width: 100%;
+  height: 50px;
+  border: 1px solid black;
+}
+.pl-name-1{
+  width: 50%;
+  height: 50px;
+  border: 1px solid black;
+  float: left;
+  font-weight: bold;
+  text-align: center;
+}
+.pl-score-1{
+  width: 50%;
+  height: 50px;
+  border: 1px solid black;
+  float: left;
+  font-weight: bold;
+  text-align: center;
+}
+.pl-name-2{
+  width: 50%;
+  height: 50px;
+  border: 1px solid black;
+  float: left;
+  font-weight: bold;
+  text-align: center;
+}
+.pl-score-2{
+  width: 50%;
+  height: 50px;
+  border: 1px solid black;
+  float: left;
+  font-weight: bold;
+  text-align: center;
+}
+.footer{
+  border: hidden;
+  width: 200px;
+  height: 100px;
+  position: absolute;
+  left: 50%;
+  top: 82%;
+  transform: translate(-50%,0%);
+  text-align: center;
+}
+.author-link{
+  text-decoration: none;
+  color: black;
 }
