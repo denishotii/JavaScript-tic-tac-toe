@@ -57,8 +57,12 @@
     <button id="restartButton">Restart</button>
   </div>
   <div class="footer">
-    <p class="copyright">&copy; 2020 - 2021</p>
-    <p class="author">Created by <a class="author-link" target="_blank" href="https://www.snapchat.com/add/denisshanihoti"><b>Denis Hoti</b></a></p>
+    <p class="copyright">&copy; 2020 - <span id="currentYear"></span></p>
+    <p class="author">Created by <a class="author-link" target="_blank" href="https://denishoti.dev"><b>Denis Hoti</b></a></p>
   </div>
+
+  <script>
+    document.getElementById("currentYear").innerHTML = new Date().getFullYear();
+  </script>
 </body>
 </html>
